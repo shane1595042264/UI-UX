@@ -17,7 +17,7 @@ const Header = () => {
                 <button type='button'>Get Started</button>
             </div>
             <div className='gpt3__header-content__people'>
-                <img src={people} />
+                <img src={people} alt="people"/>
                 <p>
                     1600 people requested access in last 24 hours
                 </p>
@@ -25,7 +25,7 @@ const Header = () => {
             </div>
             
             <div className='gpt3__header-image'>
-                <img src={ai}/>
+                <img src={ai} alt="ai"/>
             </div>
         </div>
     )
